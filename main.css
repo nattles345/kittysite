@@ -1,0 +1,117 @@
+/* GLOBALS */
+
+
+/* MENU ITEM */
+.MenuItem{
+width: 300px;
+height: 120px;
+float: left;
+border-right: 4px solid white;
+text-align: center;
+}
+
+.MenuItem p{
+font-size: 40px;
+
+}
+
+.SelectedMenuItem{
+    width: 300px;
+    height: 120px;
+    float: left;
+    border-right: 4px solid white;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.SelectedMenuItem p{
+    font-size: 40px;
+}
+
+.Menu{
+    width: 98vw;
+    height: 120px;
+    background-color: lightgrey;
+
+}
+
+/* FOOTER */
+
+.Footer{
+    width: 98vw;
+    height: 100px;
+    background-color: darkgray;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+/* INDEX  */
+
+.IndexText{
+    text-align: center;
+}
+
+.IndexPicture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px; 
+}
+
+.IndexBody{
+    height: calc(98vh - 230px);
+    min-height: 700px;
+
+}
+
+/* ABOUT */
+
+.AboutBody{
+    text-align: center;
+    /* padding-top: 300px; */
+    height: calc(98vh - 230px);
+    min-height: 700px;
+}
+.AboutBody h1{
+    padding-top: 300px;
+}
+
+/* FACTS */
+
+.FactsBody{
+    text-align: center; 
+    min-height: 700px; 
+    padding-bottom: 100px;
+}
+
+.FactsList{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FactsBody h1{
+    padding-top: 100px;  
+}
+
+.FactsPicture img{
+    height: 400px;
+    width: 600px;
+
+}
+
+/* CONTACT */
+
+.ContactBody{
+    text-align: center; 
+    min-height: 700px; 
+    padding-bottom: 100px;
+}
+
+.ContactPicture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px; 
+}
